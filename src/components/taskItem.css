@@ -1,0 +1,9 @@
+.task-item {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
